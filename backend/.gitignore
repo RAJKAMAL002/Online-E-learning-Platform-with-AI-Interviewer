@@ -1,0 +1,13 @@
+node_modules
+
+# Ignore contents of the directories
+
+uploads/Videos/*
+uploads/Thumbnails/*
+uploads/Profile_pic/*
+
+# But keep the directories themselves
+
+!uploads/Videos/.gitkeep
+!uploads/Thumbnails/.gitkeep
+!uploads/Profile_pic/.gitkeep

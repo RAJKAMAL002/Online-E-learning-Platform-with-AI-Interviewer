@@ -1,0 +1,330 @@
+[
+  {
+    "courseName": "coding",
+    "courses": [
+      {
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming using languages like Python and JavaScript.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Web Development",
+        "description": "Build websites using HTML, CSS, and JavaScript, including frameworks like React and Angular.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Data Structures and Algorithms",
+        "description": "Understand essential data structures and algorithms for efficient coding.",
+        "level": "Intermediate",
+        "duration": "10 weeks"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Create mobile applications for Android and iOS using Flutter or React Native.",
+        "level": "Intermediate",
+        "duration": "10 weeks"
+      },
+      {
+        "title": "Machine Learning",
+        "description": "Learn the fundamentals of machine learning and apply them using Python libraries like TensorFlow and scikit-learn.",
+        "level": "Advanced",
+        "duration": "12 weeks"
+      },
+      {
+        "title": "DevOps",
+        "description": "Learn about DevOps practices and tools for continuous integration and continuous deployment.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "content_marketing",
+    "courses": [
+      {
+        "title": "Introduction to Content Marketing",
+        "description": "Learn the basics of content marketing and how to create engaging content.",
+        "level": "Beginner",
+        "duration": "4 weeks"
+      },
+      {
+        "title": "Advanced Content Marketing Strategies",
+        "description": "Develop advanced strategies for content marketing to boost engagement and conversions.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Social Media Marketing",
+        "description": "Learn how to leverage social media platforms for content marketing.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Content Marketing Analytics",
+        "description": "Understand how to analyze and measure the effectiveness of your content marketing efforts.",
+        "level": "Advanced",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Email Marketing",
+        "description": "Learn the fundamentals of email marketing and how to create effective email campaigns.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Content Strategy",
+        "description": "Develop a comprehensive content strategy to align with business goals.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "content_writing",
+    "courses": [
+      {
+        "title": "Introduction to Content Writing",
+        "description": "Learn the basics of content writing, including SEO and copywriting techniques.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Creative Writing",
+        "description": "Develop your creative writing skills for various formats, including blogs and articles.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "SEO Writing",
+        "description": "Learn how to write SEO-friendly content to improve search engine rankings.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Technical Writing",
+        "description": "Understand the principles of technical writing for manuals, guides, and documentation.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Copywriting",
+        "description": "Master the art of persuasive writing for advertisements and marketing materials.",
+        "level": "Advanced",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Freelance Writing",
+        "description": "Learn how to start and grow a successful freelance writing business.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "finance",
+    "courses": [
+      {
+        "title": "Financial Accounting",
+        "description": "Understand the principles of financial accounting and how to manage financial statements.",
+        "level": "Intermediate",
+        "duration": "10 weeks"
+      },
+      {
+        "title": "Investment Strategies",
+        "description": "Learn about different investment strategies and how to build a diversified portfolio.",
+        "level": "Advanced",
+        "duration": "12 weeks"
+      },
+      {
+        "title": "Corporate Finance",
+        "description": "Explore the financial management of corporations, including capital structure and budgeting.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Personal Finance",
+        "description": "Learn how to manage your personal finances, including budgeting and investing.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Financial Markets",
+        "description": "Understand the functioning of financial markets and instruments.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Risk Management",
+        "description": "Learn about identifying, assessing, and managing financial risks.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "fitness",
+    "courses": [
+      {
+        "title": "Introduction to Fitness",
+        "description": "Learn the basics of fitness, including exercise routines and healthy eating habits.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Advanced Fitness Training",
+        "description": "Develop advanced fitness routines and techniques for better results.",
+        "level": "Advanced",
+        "duration": "10 weeks"
+      },
+      {
+        "title": "Strength Training",
+        "description": "Learn the principles of strength training and how to build muscle effectively.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Cardio Workouts",
+        "description": "Understand different cardio exercises and their benefits for heart health.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Yoga for Fitness",
+        "description": "Explore yoga practices for improving flexibility, strength, and mental well-being.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Nutrition and Fitness",
+        "description": "Learn about the role of nutrition in fitness and how to create balanced meal plans.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "photography",
+    "courses": [
+      {
+        "title": "Introduction to Photography",
+        "description": "Learn the basics of photography, including camera settings and composition techniques.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Advanced Photography Techniques",
+        "description": "Explore advanced photography techniques and post-processing methods.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Portrait Photography",
+        "description": "Learn techniques for capturing stunning portraits.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Landscape Photography",
+        "description": "Understand how to capture beautiful landscapes and nature scenes.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Photography Lighting",
+        "description": "Master the use of lighting in photography to enhance your images.",
+        "level": "Advanced",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Photo Editing",
+        "description": "Learn how to edit and enhance photos using software like Adobe Photoshop and Lightroom.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "teaching",
+    "courses": [
+      {
+        "title": "Introduction to Teaching",
+        "description": "Learn the basics of teaching and classroom management.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Advanced Teaching Methods",
+        "description": "Develop advanced teaching methods and techniques for better student engagement.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Curriculum Development",
+        "description": "Understand how to develop and implement effective curricula.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Educational Technology",
+        "description": "Explore the use of technology in education to enhance learning experiences.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Classroom Management",
+        "description": "Learn strategies for managing a classroom effectively.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Assessment and Evaluation",
+        "description": "Understand different methods of assessing and evaluating student performance.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      }
+    ]
+  },
+  {
+    "courseName": "ui_ux_design",
+    "courses": [
+      {
+        "title": "Introduction to UI/UX Design",
+        "description": "Learn the basics of user interface and user experience design.",
+        "level": "Beginner",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Advanced UI/UX Design",
+        "description": "Explore advanced concepts in UI/UX design and how to create user-centric designs.",
+        "level": "Advanced",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Design Thinking",
+        "description": "Understand the principles of design thinking and how to apply them in your projects.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "Prototyping and Wireframing",
+        "description": "Learn how to create prototypes and wireframes for your designs.",
+        "level": "Intermediate",
+        "duration": "6 weeks"
+      },
+      {
+        "title": "User Research",
+        "description": "Explore methods for conducting user research to inform your designs.",
+        "level": "Intermediate",
+        "duration": "8 weeks"
+      },
+      {
+        "title": "Usability Testing",
+        "description": "Learn how to conduct usability testing to improve your designs.",
+        "level": "Advanced",
+        "duration": "6 weeks"
+      }
+    ]
+  }
+]
