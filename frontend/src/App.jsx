@@ -68,7 +68,10 @@ function App() {
               path="/course/:domain/video-panel"
               element={<VideoPanel />}
             />
-            <Route path="/profile" element={<Dashboard />} />
+            <Route
+              path="/profile"
+              element={<Dashboard userLogout={setUser} />}
+            />
             <Route
               path="edit-playlist/:course_id"
               element={<UploadCoursePlaylist />}

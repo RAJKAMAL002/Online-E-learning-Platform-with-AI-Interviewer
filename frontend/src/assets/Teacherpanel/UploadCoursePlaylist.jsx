@@ -12,6 +12,7 @@ export const UploadCoursePlaylist = () => {
   const { course_id } = useParams();
   const { id } = useContext(contextData);
   const [list, setList] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const handleVideoChange = (e) => {
     setVideo(e.target.files[0]);
@@ -22,6 +23,7 @@ export const UploadCoursePlaylist = () => {
   };
 
   const handleUpload = () => {
+    setLoading(true);
     const formData = new FormData();
     formData.append("video", video);
     formData.append("thumbnail", thumbnail);
@@ -39,6 +41,7 @@ export const UploadCoursePlaylist = () => {
       })
       .then((res) => {
         console.log(res);
+        setLoading(false);
       })
       .catch((err) => {
         console.log(err);
@@ -51,7 +54,11 @@ export const UploadCoursePlaylist = () => {
         <div className="text-center w-[50%]">
           <label htmlFor="uploadvideo" className="cursor-pointer">
             <div>
-              <i className="fa-solid fa-cloud-arrow-up text-[10rem] text-[#abababc7]"></i>
+              {loading ? (
+                <i class="fa-solid fa-arrows-rotate text-[10rem] text-[#abababc7]"></i>
+              ) : (
+                <i className="fa-solid fa-cloud-arrow-up text-[10rem] text-[#abababc7]"></i>
+              )}
             </div>
             <div className="text-[1.5rem] text-[#abababc7]">
               Upload your tutorial
@@ -78,7 +85,7 @@ export const UploadCoursePlaylist = () => {
           }
         />
       </div>
-      <VideoList id={id} course_id={course_id} />
+      <VideoList id={id} course_id={course_id} loading={loading} />
     </div>
   );
 };

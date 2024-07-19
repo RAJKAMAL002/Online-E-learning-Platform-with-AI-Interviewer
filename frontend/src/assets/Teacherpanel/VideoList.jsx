@@ -10,7 +10,7 @@ const dateformat = (dateString) => {
   return `${day} ${month} ${year}`;
 };
 
-export const VideoList = ({ id, course_id }) => {
+export const VideoList = ({ id, course_id, loading }) => {
   const [videoList, setVideoList] = useState([]);
   const DelVideo = (id) => {
     axios
@@ -44,7 +44,7 @@ export const VideoList = ({ id, course_id }) => {
       .catch((err) => {
         console.log(err);
       });
-  }, [id, course_id]);
+  }, [id, course_id, loading]);
 
   return (
     <div className=" mt-16">

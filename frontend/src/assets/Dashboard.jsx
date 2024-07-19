@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Dashboard_course } from "./Dashboard_course";
 import { contextData } from "../context/CreateContext";
 
-export const Dashboard = () => {
+export const Dashboard = ({ userLogout }) => {
   const navigate = useNavigate();
   const { pos, id } = useContext(contextData);
 
@@ -49,6 +49,7 @@ export const Dashboard = () => {
   const handleLogout = (e) => {
     e.preventDefault();
     localStorage.setItem("userdata", "");
+    userLogout("");
     navigate("/login");
   };
 

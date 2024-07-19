@@ -30,26 +30,26 @@ export const SearchBar = ({ data }) => {
         <i className="fa-solid fa-magnifying-glass mx-5"></i>
       </div>
 
-      <Link
-        to=""
+      <div
         className={`w-[60%] bg-white shadow-md rounded-lg ${view} absolute top-[7rem]`}
       >
         {filteredData.length > 0 ? (
           filteredData.map((item, index) => (
-            <div
+            <Link
+              to={`video-panel?id=${item.id}&course_id=${item.course_id}`}
               key={index}
               className="py-3 px-5 hover:bg-gray-100 flex justify-between items-center"
             >
               <h2 className="">{item.course_title}</h2>
               <p className="text-[.7rem] text-gray-500">{item.name}</p>
-            </div>
+            </Link>
           ))
         ) : (
           <div className="py-2 text-center text-gray-500">
             No courses found.
           </div>
         )}
-      </Link>
+      </div>
     </div>
   );
 };
